@@ -16,6 +16,6 @@ public class Main {
         teacherController.create("Учитель 1", "отчество Учителя 2", 12345);
         teacherController.create("Учитель 2", "Отчество учителя 222", 543345);
 
-        teacherController.printConsole(teacherList);
+        teacherController.naPechat(teacherList);
     }
 }
